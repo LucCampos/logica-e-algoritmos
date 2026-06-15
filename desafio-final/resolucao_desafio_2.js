@@ -34,7 +34,6 @@ function exibeResumo(){
     console.log("Reprovados: " + reprovados);
 }
 
-// Desenvolver a codificação do 2º desafio à partir deste ponto
 const aluno = [];
 const nota1 = [];
 const nota2 = [];
@@ -44,7 +43,6 @@ console.log("");
 console.log("--- Gerenciador de Boletim ---");
 console.log("");
 
-// Estrutura de repetição para coletar o nome dos 5 filmes
 for (let i = 0; i<=2; i++){
     console.log(`--- Aluno ${i + 1} ---`);
     aluno[i] = prompt(`Nome: `);

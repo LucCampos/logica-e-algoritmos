@@ -12,7 +12,6 @@ console.log("");
 console.log("--- Conclusão de Cadastro ---");
 console.log("");
 
-// Estrutura de repetição para coletar o nome dos 5 filmes
 for (let i = 0; i<=2; i++){
     console.log(`--- Pessoa ${i + 1} ---`);
     pessoa[i] = prompt(`Nome: `);
